@@ -1,0 +1,59 @@
+/* التمرير السلس */
+html{scroll-behavior: smooth;}
+
+body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background-color: #f8f8fa; }
+
+
+/*تنسيقhero مع خلفية*/
+     .hero-section  { height: 90vh; width: 100%;
+                    /*90%من طول الشاشة*/
+                    
+                      background-image: 
+                     url('../assets/images/hero-bg.jpg');
+                      /*تظليل فوق الصورة لتوضيح النص*/
+                      background-size: cover;
+                     /*لتناسب الصورة جميع الشاشات*/
+                      background-position:center;
+                      /*يجعل وسط الصورة في المنتصف*/
+                      background-color: #817474;
+                      /*لون خلفية رمادي غامق*/
+                     
+                      
+                    }
+.navbar {
+        box-shadow: 0 2px 10px rgba(0,0,0,0,1);
+}
+
+/* تأثيرات التحويم على البطاقات */
+.card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+}
+
+.card:hover {
+    transform: translateY(-10px); /* رفع البطاقة قليلاً عند المرور عليها */
+    box-shadow: 0 10px 20px rgba(0,0,0,0.15) !important;
+}
+
+/* تنسيق الجداول */
+.table {
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+/* تنسيق الفيديو */
+video {
+    width: 100%;
+    height: auto;
+    background-color: #000;
+}
+
+/* تحسين شكل نموذج التواصل */
+#requestForm {
+    border-top: 5px solid #198754; /* خط أخضر علوي للنموذج */
+}
+
+.hero-section{
+h1{color: black !important; text-shadow: 2px !important; }
+p{ color: #333333 !important ; text-shadow: 2px !important; font-weight: 900 !important;}
+}
